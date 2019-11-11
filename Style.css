@@ -1,10 +1,18 @@
 body
 {
-  background-color: azure;
+  background: url(bg.png);
+}
+section
+{
+  width: 60%;
+  min-width: 800px;
+  background-color: aliceblue;
+  padding: 20px;
+  margin: auto;
 }
 h1
 {
-  color: navy;
+  color: azure;
   font-family: Georgia, 'Trebuchets MS', serif ;
   font-size: 3em;
   text-align: center;
@@ -13,8 +21,6 @@ h1:hover
 {
   color: indigo;
   text-shadow: none;
-  border-radius: 20px/10px;
-  border: 5px navy solid;
 }
 h2
 {
@@ -40,10 +46,9 @@ p, ul, figure
 {
   font-family: 'comic sans ms', 'times new roman',georgia, arial,serif;
   text-align: justify;
-  background-color: powderblue;
+
   color: black;
   opacity: 0.9;
-  box-shadow: 6px 7px 2px silver;
 }
 figure
 {
